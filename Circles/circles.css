@@ -1,0 +1,66 @@
+/* Circles */
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex-wrapper p 
+{
+    font-size: 11px;
+}
+
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+/*  margin: 2px auto;*/
+  max-width: 70%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+    stroke: rgba(255,255,255,0.3);
+  stroke-width: 2;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke: rgba(255,255,255,0.8); ;
+}
+
+
+
+.percentage {
+  fill: white;
+  font-family: sans-serif;
+  font-size: 12.5px;
+  text-anchor: middle;
+    padding-top: 5px;
+    
+}
+
+
+
+#sites
+{
+    font-size: 16px;
+    
+}

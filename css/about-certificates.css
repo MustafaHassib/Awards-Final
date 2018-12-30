@@ -1,0 +1,287 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  background-color: #f4f7f6;
+
+}
+/* G E N E R A L ~ S T Y L E S*/
+*{
+  transition: all .1s ease-in-out;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a {color: #202121;}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+/* G E N E R A L ~ S T Y L E S*/
+/* H E A D E R */
+.top-nav{
+  background-color: #f4f7f6;
+  padding: 0 0 0 10px;
+  color: #202121;
+  line-height: 70px;
+  border-bottom: 1px solid #E6EAEA;
+}
+.navbar
+{
+    width: 100% !important;
+}
+
+#about
+{
+    color: black !important;
+}
+
+.about-menu
+{
+    border-right:  1px solid #dee2e6!important;
+    padding: 0px 3px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6) !important;
+}
+
+
+.top-nav #lang-switch{
+  border-bottom: 1px solid #202121;
+}
+
+.social-icons a{ margin-left: .7em; display: inline-block;}
+#logo{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2em;
+}
+.navbar{line-height: 40px;}
+.bg-light{
+  background-color: #f4f7f6 !important;
+}
+.main-menu-btn{
+  border-radius: 0;
+  border: none;
+  line-height: 60px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+.main-menu-btn:hover,.social-icons a:hover{
+  color: #20212190;
+}
+/* H E A D E R */
+
+/* M A I N ~ C O N T E N T*/
+
+
+/* M A I N ~ C O N T E N T*/
+
+
+/* F O O T E R */
+
+footer{
+  background-color: white;
+  padding: 50px 0;
+}
+.footer-menu ul{padding: 0;}
+.footer-menu ul li{
+  display: inline-block;
+  font-weight: 600;
+}
+.footer-menu  button{
+  padding: .375rem .35rem .35rem 0;
+  font-size: 16px;
+}
+.copyrights{
+  color: #777;
+  font-weight: 300;
+}
+.copyrights span{
+  color: #202121;
+  font-weight: 800;
+}
+footer .social-icons a{
+  margin: 0 .7em 0 0;
+}
+footer .schedule{
+  font-weight: 400;
+  font-size: 1.5em;
+
+}
+.schedule a{
+  font-weight: 700;
+  border-bottom: 1px solid #202121;
+  margin-left: .2em;
+}
+
+/* F O O T E R */
+
+/* The awards Section */
+.fooled h2 {
+     border-bottom: 4px solid black;
+    width: 10%;
+  
+}
+
+@font-face{
+    font-family:'apercu';
+    src: url(css/Apercu-Bold.otf) format("opentype");
+}
+
+.fooled
+{
+    font-family: "apercu" , sans-serif;
+}
+
+.fooled h1 
+{
+    font-size: 40px !important;
+    }
+.fooled span{
+    font-weight: 700;
+}
+
+
+
+
+/* The awards */
+
+.box-content p{
+    font-size: 16px;
+}
+.box-content h3 {
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.box-content h3::after{
+    bottom: 0;
+    left: 0px;
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background-color:#202121;
+    /* The awards */
+}
+/* cookies bar */
+
+.cookies
+{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.cookies a
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.cookies button
+{
+    background-color: #49c5b6;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+
+    /* Prizes Section  */
+
+.con-width{
+    width: 70%;
+    margin: 0 auto;
+}
+    /* Prizes Section  */
+    /* Register & login Form  */
+
+.box-content-login{
+    background-color: #f4f7f6;
+     margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 50px;
+
+
+}
+
+.form-login{
+    width: auto;
+
+
+}
+.text-input{
+    width: 100%;
+    height: 60px;
+    padding: 0 15px;
+    background: #fff;
+    border: 1px solid #DBE0DF;
+}
+.login-form-p{
+    font-size: 16px;
+        margin: auto;
+    margin-top: 15px;
+    width: 85%;
+    cursor: pointer;
+}
+.login-form-p a{
+    color: #49c5b6;
+    font-weight: 700;
+}
+.login-check
+{
+position: relative;
+    top: 2px;
+
+}
+.button{
+        background-color: #49c5b6;
+    margin-bottom: 15px;
+}
+.link span a{
+    width: 80%;
+    font-size: 16px;
+        color:#49c5b6 !important;
+    border-bottom: 1px solid rgba(73,197,182,0.5);
+}
+.login-form-p span{
+    font-size: 17px;
+}
+.link-social-face{
+        background-color: #325595;
+
+}
+.link-social-face a{
+
+    font-size: 18px;
+    color:#fff;
+}
+.link-social-google{
+        background-color: #fcfcfc;
+
+}
+.link-social-google a{
+
+    font-size: 18px;
+    color:#202121;
+}
+.link-social-twitter{
+        background-color: #25B6E6;
+
+}
+.link-social-twitter a{
+
+    font-size: 18px;
+    color:#fff;
+}
+    /* Register & login Form  */

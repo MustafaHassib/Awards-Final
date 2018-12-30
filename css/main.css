@@ -1,0 +1,435 @@
+@font-face{
+    font-family:'apercu';
+    src: url(css/Apercu-Bold.otf) format("opentype");
+}
+
+body{
+  font-family: "apercu" , sans-serif;
+  font-size: 14px;
+  background-color: #f4f7f6;
+
+}
+/* G E N E R A L ~ S T Y L E S*/
+.bold{font-weight: 700 !important;}
+.bolder{font-weight: 900 !important;}
+.big-title{font-size: 3em; position: relative; padding-top: 1em;}
+.title-after::before{
+  content: "";
+  position: absolute;
+  width: 80px;
+  border-bottom: 4px solid black;
+  top: 0;
+  left: 0;
+}
+.blog-title{
+  font-size: 20px;
+  margin: 4% 0;
+  position: relative;
+  padding-bottom: 4%;
+}
+.blog-title-after::after{
+  position: absolute;
+  content: "";
+  width: 50px;
+  border-bottom: 4px solid black;
+  bottom: 0;
+  left: 0;
+}
+.section{padding: 3% 5%;}
+*{
+  transition: all .1s ease-in-out;
+}
+a{color: #202121;}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+/* G E N E R A L ~ S T Y L E S*/
+/* H E A D E R */
+.top-nav{
+  background-color: #f4f7f6;
+  padding: 0 0 0 10px;
+  color: #202121;
+  line-height: 70px;
+  border-bottom: 1px solid #E6EAEA;
+}
+
+.top-nav #lang-switch{
+  border-bottom: 1px solid #202121;
+}
+
+.social-icons a{ margin-left: .7em; display: inline-block;}
+#logo{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2em;
+}
+.navbar{line-height: 40px;}
+.bg-light{
+  background-color: #f4f7f6 !important;
+}
+.main-menu-btn{
+  border-radius: 0;
+  border: none;
+  line-height: 60px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+}
+.main-menu-btn:hover,.social-icons a:hover{
+  color: #20212190;
+}
+
+
+.header-slider{
+  background-image: url(../img/florent-biffi-website-design.jpg);
+  color: white;
+}
+.header-votes ul li{
+  list-style: none;
+  float: left;
+  width: 35px;
+  margin-left: .4em;
+}
+.header-body h2, .header-body p{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: monospace;
+}
+.header-body p span{
+  font-size: 1.3rem;
+  color: lightblue;
+}
+.section-title{
+  font-size: 20px;
+}
+.join-btn{
+  border-radius: 25px;
+
+}
+/* H E A D E R */
+
+/* M A I N ~ C O N T E N T*/
+
+
+
+.box-body p{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.box-footer{
+  display: flex;
+  flex-direction: row;
+
+}
+.box-footer img{
+  width: 25px;
+}
+.box-footer p{
+  line-height: 25px;
+}
+.box-author p{
+  font-size: 12px
+}
+.box-author span{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+/* M A I N ~ C O N T E N T*/
+
+
+/* F O O T E R */
+
+footer{
+  background-color: white;
+  padding: 50px 0;
+}
+.footer-menu ul{padding: 0;}
+.footer-menu ul li{
+  display: inline-block;
+  font-weight: 600;
+}
+.footer-menu  button{
+  padding: .375rem .35rem .35rem 0;
+  font-size: 16px;
+}
+.copyrights{
+  color: #777;
+  font-weight: 300;
+}
+.copyrights span{
+  color: #202121;
+  font-weight: 800;
+}
+footer .social-icons a{
+  margin: 0 .7em 0 0;
+}
+footer .schedule{
+  font-weight: 400;
+  font-size: 1.5em;
+
+}
+.schedule a{
+  font-weight: 700;
+  border-bottom: 1px solid #202121;
+  margin-left: .2em;
+}
+/* F O O T E R */
+
+/* Circles */
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex-wrapper p
+{
+    font-size: 11px;
+}
+
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  width: 50%;
+  text-align: center;
+  max-height: 250px;
+  margin: auto;
+}
+
+.circle-bg {
+  fill: none;
+    stroke: rgba(255,255,255,0.3);
+  stroke-width: 2;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke: rgba(255,255,255,0.8); ;
+}
+
+
+
+.percentage {
+  fill: white;
+  font-family: sans-serif;
+  font-size: 12.5px;
+  text-anchor: middle;
+    padding-top: 5px;
+
+}
+
+
+
+#sites
+{
+    font-size: 16px;
+
+}
+
+
+
+
+/**************/
+/* J O B - P A G E */
+/**************/
+.post{
+  background-color: white;
+}
+.post img{
+  width: 30px;
+}
+.post-body{
+  margin-bottom: 30%;
+}
+
+.post:hover{
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.bg-info-light{
+  background-color: #add8e685;
+}
+/**************/
+/* S U B M I T - P A G E */
+/**************/
+.submit-price{
+  font-size: 5em;
+  font-weight: 900;
+}
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item,
+.owl-carousel .owl-stage-outer{
+  height: 100%;
+}
+.carousel-body{
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+
+}
+.name{position: relative; padding-top: 2em;}
+.name::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 80px;
+  margin: auto;
+  border-top: 4px solid white;
+}
+#gallery{
+  overflow: hidden;
+}
+.gallery-post img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all .5s ease;
+}
+.gallery-post img:hover{
+  -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0);
+}
+.gallery-post:hover .gallery-overlay{
+  bottom:0;
+  opacity: 1;
+}
+.gallery-overlay{
+  transition: all .7s ease;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+
+/* About Page*/
+
+
+/* menu */
+
+#about
+{
+    color: black !important;
+}
+
+.sub-menu .navbar{
+  padding: 0;
+}
+
+.sub-menu .navbar .nav-item{
+  line-height: 56px !important;
+}
+
+/* Section 1 */
+
+.about-section1
+{
+    background-color: #f4f7f6;
+}
+
+
+#heading1
+{
+    width: 15%;
+    border-top: 4px solid black;
+}
+
+.container-section1
+{
+    padding: 70px 0px;
+}
+
+.container-section1 h1
+{
+    font-weight: 900;
+}
+
+.container-section1 p
+{
+    font-size: 17px;
+}
+
+/* Section 2 */
+.about-section2 img
+{
+
+    width: 100%;
+}
+
+/* Section 3 */
+.about-section3 h3
+{
+  padding-bottom: 1px;
+  border-top: 4px solid black;
+}
+
+
+.about-section3 p
+{
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.about-section3 a
+{
+    color: black;
+    font-size: 16px;
+   padding-bottom: 1px;
+    border-bottom: 1px solid #000
+}
+
+.container-section3
+{
+    padding: 70px 0px;
+}
+
+/* cookies bar */
+
+.cookies
+{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.cookies a
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.cookies button
+{
+    background-color: #49c5b6;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+
+}

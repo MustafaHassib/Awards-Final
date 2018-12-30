@@ -1,0 +1,107 @@
+/* About Page*/
+
+
+/* menu */
+
+#about 
+{
+    color: black !important;
+}
+
+.about-menu 
+{
+    border-right:  1px solid #dee2e6!important;
+    padding: 0px 3px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6) !important;
+}
+
+
+/* Section 1 */
+
+.about-section1
+{
+    background-color: #f4f7f6;
+}
+
+
+#heading1
+{
+    width: 15%;
+    border-top: 4px solid black;
+}
+
+.container-section1
+{
+    padding: 70px 0px;
+}
+
+.container-section1 h1
+{
+    font-weight: 900;
+}
+
+.container-section1 p
+{
+    font-size: 17px;
+}
+
+/* Section 2 */
+.about-section2 img
+{
+    
+    width: 100%;
+}
+
+/* Section 3 */
+.about-section3 h3
+{
+  padding-bottom: 1px;
+  border-top: 4px solid black;
+}
+
+
+.about-section3 p 
+{
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.about-section3 a
+{
+    color: black; 
+    font-size: 16px;
+   padding-bottom: 1px;
+    border-bottom: 1px solid #000
+}
+
+.container-section3 
+{
+    padding: 70px 0px;
+}
+
+/* cookies bar */
+
+.cookies
+{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.cookies a
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.cookies button
+{
+    background-color: #49c5b6;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    
+}

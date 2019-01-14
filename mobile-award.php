@@ -28,6 +28,8 @@
       min-height: 48rem;
       width: 100%;
       overflow: hidden;
+      margin-top: -150px;
+      z-index: -1;
     }
     </style>
 
@@ -41,7 +43,7 @@
       <div class="top-nav">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-2 border-right">
+            <div class="col-md-2">
               <a id="search" href="#!"><i class="fas fa-search mr-4"></i></a>
               <a id="lang-switch" href="#!">ENGLISH</a>
             </div>
@@ -50,7 +52,7 @@
                 <a id="logo" href="index.php">Route.</a>
               </div>
             </div>
-            <div class="col-md-1 offset-md-1 border-left">
+            <div class="col-md-1 offset-md-1">
               <div class="social-icons text-center">
                 <a href="#!"><i class="fab fa-facebook-f"></i></a>
                 <a href="#!"><i class="fab fa-twitter"></i></a>
@@ -67,7 +69,7 @@
 
         <!-- Menu -->
 
-            <div class="main-menu ">
+            <div class="main-menu">
           <div class="row no-gutters">
 <!--            <div class="col-md-12 ">-->
               <nav class="navbar navbar-expand-lg navbar-light w-100" >
@@ -523,10 +525,7 @@
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        <script src="js/jQuery-plugin-progressbar.js"></script>
-        <script src="js/main.js">
-
-        </script>
+        <script src="js/main.js"></script>
       <script src="js/mobaward.js"></script>
   </body>
 </html>

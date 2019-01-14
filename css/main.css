@@ -1,10 +1,6 @@
-@font-face{
-    font-family:'apercu';
-    src: url(css/Apercu-Bold.otf) format("opentype");
-}
 
 body{
-  font-family: "apercu" , sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px;
   background-color: #f4f7f6;
 
@@ -95,7 +91,6 @@ a:hover{
 .header-body h2, .header-body p{
   text-transform: uppercase;
   font-weight: 900;
-  font-family: monospace;
 }
 .header-body p span{
   font-size: 1.3rem;
@@ -233,7 +228,6 @@ footer .schedule{
 
 .percentage {
   fill: white;
-  font-family: sans-serif;
   font-size: 12.5px;
   text-anchor: middle;
     padding-top: 5px;
@@ -434,15 +428,10 @@ footer .schedule{
 
 }
 
-@font-face{
-    font-family:'apercu';
-    src: url(css/Apercu-Bold.otf) format("opentype");
-}
 
 
 body
 {
-    font-family: "apercu" , sans-serif;
     background: #f4f7f6;
 }
 
@@ -591,21 +580,37 @@ body
 
 .young-section4
 {
-    position: relative;
+  position: relative;
 }
 
 .apply
 {
-    position: absolute;
-    right: 40%;
-    bottom: 0%;
+  position: absolute;
+  right: 40%;
+  bottom: 0%;
 }
 
 .apply button:hover
 {
-    background-color: #49c5b6;
-    border: none;
+  background-color: #49c5b6;
+  border: none;
 }
-.item-box:hover .img-top{
-  display: none;
+
+.img-top{
+  overflow: hidden;
+  background-color: #777
+}
+.item-box:hover{
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.45);
+box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.45);
+}
+.img-top .img-fluid{
+  transition: all .5s ease;
+
+}
+section .item-box:hover .img-top .img-fluid{
+  transform: scale(1.4) rotate(5deg);
+  transition: all .5s ease;
+  
 }

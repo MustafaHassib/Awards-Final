@@ -18,7 +18,18 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
-    
+    <link rel="stylesheet" href="css/mobaward.css">
+
+    <style media="screen">
+    header {
+      position: relative;
+    /*  background-color: black;*/
+      height: 100vh;
+      min-height: 48rem;
+      width: 100%;
+      overflow: hidden;
+    }
+    </style>
 
     <title>Awwwards</title>
   </head>
@@ -27,70 +38,77 @@
 
 
       <!-- T O P - N A V -->
-      <div class="top-nav  fixed-top ">
+      <div class="top-nav">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-2 lang-switch-div">
+            <div class="col-md-2 border-right">
               <a id="search" href="#!"><i class="fas fa-search mr-4"></i></a>
               <a id="lang-switch" href="#!">ENGLISH</a>
             </div>
-            <div class="col-md-6">
-              <div class="nav-logo text-center ">
-                <a id="logo" href="index.html">awwwards.</a>
+            <div class="col-md-8">
+              <div class="nav-logo text-center">
+                <a id="logo" href="index.php">Route.</a>
               </div>
             </div>
-              <div class="col-md-4 px-0">
-              <div class="nav-right">
-                <div class="row no-gutters">
-                  <div class="offset-md-2 col-md-5">
-                    <a href="#!" class="btn main-menu-btn ">
-                      Register / Login
-                    </a>
-                  </div>
-                  <div class="col-md-5" id="submit-mob">
-                    <a href="#!" class="btn main-menu-btn pb-2">
-                      Submit your site
-                    </a>
-                  </div>
-                </div>
+            <div class="col-md-1 offset-md-1 border-left">
+              <div class="social-icons text-center">
+                <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!"><i class="fab fa-twitter"></i></a>
+                <a href="#!"><i class="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+
       <!-- T O P - N A V -->
 
 
         <!-- Menu -->
 
-            <div class="main-menu fixed-top mt-4">
+            <div class="main-menu ">
           <div class="row no-gutters">
 <!--            <div class="col-md-12 ">-->
-              <nav class="navbar navbar-expand-lg navbar-light w-100 h-50 mt-5" >
+              <nav class="navbar navbar-expand-lg navbar-light w-100" >
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="mobMenu" >
-                 <ul class="navbar-nav mr-auto pt-2">
+                  <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#">Link</a>
+                      <a class="nav-link" href="winners.php">Winners</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#">Link</a>
+                      <a class="nav-link" href="nominees.php">Nominees</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#">Link</a>
+                      <a class="nav-link" href="collections.php">Collections</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#">Link</a>
+                      <a class="nav-link" href="professional.php">Professional Directory</a>
                     </li>
-                 </ul>
+                    <li class="nav-item">
+                      <a class="nav-link" href="jobs.php">Jobs & Talent</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.php">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ebooks.php">eBooks</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.php">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="conference.php">Conferences</a>
+                    </li>
+                  </ul>
                 </div>
               </nav>
 <!--            </div>-->
@@ -108,7 +126,7 @@
          <header>
   <div class="overlay"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="images/bg-google-comp2.mp4" type="video/mp4">
+    <source src="images/bg-google-comp2.mp4" type=" video/mp4">
   </video>
   <div class="container h-100">
     <div class="d-flex h-100  align-items-center mt-3">
@@ -506,6 +524,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         <script src="js/jQuery-plugin-progressbar.js"></script>
+        <script src="js/main.js">
+
+        </script>
       <script src="js/mobaward.js"></script>
   </body>
 </html>

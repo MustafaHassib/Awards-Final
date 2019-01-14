@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/index_style.css">
+  <link rel="stylesheet" href="css/mobaward.css">
 
 
   <title>Qoders - Route</title>

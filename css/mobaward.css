@@ -7,7 +7,7 @@ body
 {
     background: transparent;
    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
-  
+
 }
 
 
@@ -24,13 +24,13 @@ body
 
 .top-nav #lang-switch{
   border-bottom: 1px solid rgba(0,0,0,0.1);
-  
+
 }
 
-.mob-menu 
+.mob-menu
 {
    color: white !important;
-   
+
 }
 
 #submit-mob
@@ -43,7 +43,7 @@ body
 
 
 
-.mob-overlay 
+.mob-overlay
 {
     font-size: 80px;
     line-height: 1.2;
@@ -76,13 +76,8 @@ header button:hover
     width: 90px;
 }
 
-header {
-  position: relative;
-/*  background-color: black;*/
-  height: 100vh;
-  min-height: 48rem;
-  width: 100%;
-  overflow: hidden;
+.bg-transparent{
+  background-color: transparent !important;
 }
 
 header video {
@@ -125,10 +120,10 @@ header .overlay {
     font-family: 'apercu';
     src: url(css/Apercu-Bold.otf) format("opentype");
 }
-.mob-section2 
+.mob-section2
 {
       background-color: #f4f7f6;
-    
+
 }
 
 .mob-section2 h2
@@ -164,7 +159,7 @@ header .overlay {
     position: absolute;
     top: 8%;
     left: 25%;
-  
+
 }
 
 .mob-section3
@@ -174,15 +169,15 @@ header .overlay {
     position: relative;
     z-index: -2;
     overflow: hidden;
-   
+
 }
 
-.mob-section3 h1 
+.mob-section3 h1
 {
-    
+
     font-size: 48px;
     font-weight: 800;
-  
+
 }
 
 .mob-section3 h2
@@ -205,12 +200,12 @@ header .overlay {
 {
     position: absolute;
      z-index: -1;
-   
+
 }
 
-#img-circle 
+#img-circle
 {
-   
+
     top: 5%;
     right: 30%;
     width: 12%;
@@ -230,7 +225,7 @@ header .overlay {
   flex-flow: row nowrap;
 }
 
-.flex-wrapper p 
+.flex-wrapper p
 {
     font-size: 11px;
 }
@@ -279,7 +274,7 @@ header .overlay {
   font-size: 12.5px;
   text-anchor: middle;
     padding-top: 5px;
-    
+
 }
 
 
@@ -287,7 +282,7 @@ header .overlay {
 #sites
 {
     font-size: 16px;
-    
+
 }
 
 /* Section 4 */
@@ -300,17 +295,17 @@ header .overlay {
     position: relative;
 }
 
-.mob-section4 h2 
+.mob-section4 h2
 {
      border-bottom: 4px solid black;
     width: 10%;
 }
-  
-.mob-section4 h1 
+
+.mob-section4 h1
 {
     font-size: 45px !important;
     line-height: 1.1;
-    
+
 }
 
 .section4-imgs
@@ -344,7 +339,7 @@ header .overlay {
     top: 20%;
     width: 9%;
     filter: blur(2px);
-    
+
 }
 
 #ball3
@@ -388,7 +383,7 @@ header .overlay {
 }
 
 /* section 5 */
-.mob-section6 
+.mob-section6
 {
     position: relative;
     background-color: #f4f7f6;
@@ -396,7 +391,7 @@ header .overlay {
 }
 .mob-section6 h2
 {
-     border-bottom: 4px solid black;  
+     border-bottom: 4px solid black;
      width: 6%;
     position: absolute;
     left: 47%;
@@ -410,7 +405,7 @@ header .overlay {
 .mob-section6 .teal a
 {
     color: #49c5b6;
-    
+
 }
 
 .mob-section6 .black a
@@ -422,7 +417,7 @@ header .overlay {
    color:  #202121;
 }
 
-.discover 
+.discover
 {
     width: 100%;
     line-height: 60px;
@@ -435,7 +430,7 @@ header .overlay {
     position: relative;
     overflow: hidden;
 }
-  
+
 .member img
 {
     width: 100%;
@@ -452,7 +447,7 @@ header .overlay {
     opacity: 0;
     transition: all 1s;
     width: 100%;
-    
+
 }
 .member:hover img
 {
@@ -462,9 +457,3 @@ header .overlay {
 {
     opacity: 1;
 }
-
-
-
-
-
-
